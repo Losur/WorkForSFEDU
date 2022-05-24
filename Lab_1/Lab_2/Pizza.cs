@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab_2
 {
-    internal class Pizza : MenuItem
+    public class Pizza : MenuItem
     {
         public float cost = 14.76F;
 
