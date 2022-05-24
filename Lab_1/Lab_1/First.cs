@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab_1
 {
-    internal class First
+    public class First
     {
         public readonly CustomLogger logger = CustomLogger.Instance;
 
