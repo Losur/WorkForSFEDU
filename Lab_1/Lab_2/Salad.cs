@@ -1,21 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Lab_2
+﻿namespace Lab_2
 {
     public class Salad : MenuItem
     {
-        private float cost = 12.4F;
-
-        public Salad() : base("Salad")
+        public Salad() : base("Salad", 12.4F)
         { }
 
-        public override float GetCost()
+        public override string GetCost()
         {
-            return cost;
+            return "Salad cost is: " + Cost;
         }
     }
 }

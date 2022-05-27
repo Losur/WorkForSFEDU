@@ -2,14 +2,12 @@
 {
     public class IceCream : MenuItem
     {
-        public float cost = 9.4F;
-
-        public IceCream() : base("Ice Cream")
+        public IceCream() : base("Ice Cream", 9.4F)
         { }
 
-        public override float GetCost()
+        public override string GetCost()
         {
-            return cost;
+            return "IceCream could cost: " + Cost;
         }
     }
 }

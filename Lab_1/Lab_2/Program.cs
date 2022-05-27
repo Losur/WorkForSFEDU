@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections;
-using System.Diagnostics;
 
 namespace Lab_2
 {
@@ -38,8 +37,8 @@ namespace Lab_2
                 float sum = 0;
                 foreach(MenuItem item in menuItems)
                 {
-                    sum += item.GetCost();
-                    Console.WriteLine(item.Name);
+                    Console.WriteLine(item.GetCost());
+                    sum += item.Cost;
                 }
                 Console.WriteLine("\n" + sum + "\n\n");
             }

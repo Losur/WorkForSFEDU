@@ -11,7 +11,9 @@ namespace Lab_1
             timer.Start();
             while(timer.Elapsed.TotalSeconds < 0.04)
             {
+                var t = new CustomLogger();
                 CustomLogger logger = CustomLogger.Instance;
+
                 First first = new First();
                 Second second = new Second();
                 if(first.logger == second.logger && logger == second.logger)
