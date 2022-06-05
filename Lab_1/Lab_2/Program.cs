@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections;
 
 namespace Lab_2
 {
@@ -7,41 +6,20 @@ namespace Lab_2
     {
         private static void Main(string[] args)
         {
-            for(var j = 0; j < 3; j++)
-            {
-                var menuItems = new ArrayList();
-                for(var i = 0; i < 3; i++)
-                {
-                    Random random = new Random();
-                    var type = random.Next(0, 3);
-                    MenuItem menuItem;
-                    switch(type)
-                    {
-                        case 0:
-                            menuItem = new Pizza();
-                            menuItems.Add(menuItem);
-                            break;
+            Pizza pizza = new Pizza("Italian pizza", 7F);
+            pizza.Cost = 15.0F;
+            Console.WriteLine(pizza.GetCost());
+            Console.WriteLine("");
 
-                        case 1:
-                            menuItem = new Salad();
-                            menuItems.Add(menuItem);
-                            break;
+            SaladDecorator sd = new SaladDecorator(pizza);
+            IceCreamDecorator ic = new IceCreamDecorator(pizza);
 
-                        case 2:
-                            menuItem = new IceCream();
-                            menuItems.Add(menuItem);
-                            break;
-                    }
-                }
-
-                float sum = 0;
-                foreach(MenuItem item in menuItems)
-                {
-                    Console.WriteLine(item.GetCost());
-                    sum += item.Cost;
-                }
-                Console.WriteLine("\n" + sum + "\n\n");
-            }
+            Console.WriteLine(sd.GetCost());
+            Console.WriteLine("");
+            Console.WriteLine(ic.GetCost());
+            Console.WriteLine("");
+            IceCreamDecorator icTest = new IceCreamDecorator(sd);
+            Console.WriteLine(icTest.GetCost());
         }
     }
 }

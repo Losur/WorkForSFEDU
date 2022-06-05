@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Lab4.Client">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQACAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Client\Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab4.NotifyingSystem">
+    <Position X="9.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAIAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>NotifyingSystem\NotifyingSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab4.AbstractPlant">
+    <Position X="4.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAIAAAABAAAAgAAIAABAAAAgEEIEAAAAEAAAAA=</HashCode>
+      <FileName>Plant\AbstractPlant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab4.Plant">
+    <Position X="7" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAABAAAAAAAAAABAAAAAEEAAAAAAEAAAAA=</HashCode>
+      <FileName>Plant\Plant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab4.Program" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAABIACAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab4.AbstractNotifyingSystem">
+    <Position X="9.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAIAAAIBAAAAAAAAAAAA=</HashCode>
+      <FileName>NotifyingSystem\AbstractNotifyingSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab4.Decorator">
+    <Position X="1.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAABAAAAAQAAAEBAAAAAEUAAAAAAEAAAAA=</HashCode>
+      <FileName>PersonalDecorator\Decorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab4.AgronomistsDecorator">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAABAAAAAEEAAAAAAEAAAAA=</HashCode>
+      <FileName>PersonalDecorator\AgronomistsDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab4.CustomLogger">
+    <Position X="11.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAABAAAAAQAAAAABAAAA=</HashCode>
+      <FileName>CustomLogger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab4.StuffDecorator">
+    <Position X="3.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAABAAAAAEEAAAAAAEAAAAA=</HashCode>
+      <FileName>PersonalDecorator\StuffDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Lab4.Health">
+    <Position X="1.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Plant\Health.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

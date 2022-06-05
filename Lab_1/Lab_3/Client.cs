@@ -7,7 +7,6 @@ namespace Lab_3
     {
         public static void ClientSimulator(AccountsHandler handler)
         {
-            Random Random = new Random();
             foreach(var money in new List<int> { 9, 19, 32, 10000 })
             {
                 Console.WriteLine($"Client: How can I paid?  *" + money);

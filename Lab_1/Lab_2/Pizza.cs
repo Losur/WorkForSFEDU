@@ -1,13 +1,18 @@
-﻿namespace Lab_2
+﻿using System.Collections.Generic;
+
+namespace Lab_2
 {
-    public class Pizza : MenuItem
+    public class Pizza : PizzaMenuItem
     {
-        public Pizza() : base("Pizza", 14.76F)
-        { }
+        public Pizza(string name, float cost)
+        {
+            Name = name;
+            Cost = cost;
+        }
 
         public override string GetCost()
         {
-            return "Cost of Pizza is: " + Cost;
+            return Name + " cost is " + Cost;
         }
     }
 }
